@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFAFB89B22557DC2002D3E09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAFB89A22557DC2002D3E09 /* AppDelegate.swift */; };
+		BFAFB89D22557DC2002D3E09 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAFB89C22557DC2002D3E09 /* FirstViewController.swift */; };
+		BFAFB89F22557DC2002D3E09 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAFB89E22557DC2002D3E09 /* SecondViewController.swift */; };
+		BFAFB8A222557DC2002D3E09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAFB8A022557DC2002D3E09 /* Main.storyboard */; };
+		BFAFB8A422557DC2002D3E09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFAFB8A322557DC2002D3E09 /* Assets.xcassets */; };
+		BFAFB8A722557DC2002D3E09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFAFB8A522557DC2002D3E09 /* LaunchScreen.storyboard */; };
+		BFAFB8B222557DC2002D3E09 /* TriviarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAFB8B122557DC2002D3E09 /* TriviarTests.swift */; };
+		BFAFB8BD22557DC2002D3E09 /* TriviarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAFB8BC22557DC2002D3E09 /* TriviarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BFAFB8AE22557DC2002D3E09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFAFB88F22557DC2002D3E09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFAFB89622557DC2002D3E09;
+			remoteInfo = Triviar;
+		};
+		BFAFB8B922557DC2002D3E09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFAFB88F22557DC2002D3E09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BFAFB89622557DC2002D3E09;
+			remoteInfo = Triviar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BFAFB89722557DC2002D3E09 /* Triviar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Triviar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFAFB89A22557DC2002D3E09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFAFB89C22557DC2002D3E09 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		BFAFB89E22557DC2002D3E09 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BFAFB8A122557DC2002D3E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BFAFB8A322557DC2002D3E09 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFAFB8A622557DC2002D3E09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFAFB8A822557DC2002D3E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFAFB8AD22557DC2002D3E09 /* TriviarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriviarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFAFB8B122557DC2002D3E09 /* TriviarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviarTests.swift; sourceTree = "<group>"; };
+		BFAFB8B322557DC2002D3E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFAFB8B822557DC2002D3E09 /* TriviarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriviarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFAFB8BC22557DC2002D3E09 /* TriviarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviarUITests.swift; sourceTree = "<group>"; };
+		BFAFB8BE22557DC2002D3E09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFAFB89422557DC2002D3E09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAFB8AA22557DC2002D3E09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAFB8B522557DC2002D3E09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFAFB88E22557DC2002D3E09 = {
+			isa = PBXGroup;
+			children = (
+				BFAFB89922557DC2002D3E09 /* Triviar */,
+				BFAFB8B022557DC2002D3E09 /* TriviarTests */,
+				BFAFB8BB22557DC2002D3E09 /* TriviarUITests */,
+				BFAFB89822557DC2002D3E09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFAFB89822557DC2002D3E09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFAFB89722557DC2002D3E09 /* Triviar.app */,
+				BFAFB8AD22557DC2002D3E09 /* TriviarTests.xctest */,
+				BFAFB8B822557DC2002D3E09 /* TriviarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFAFB89922557DC2002D3E09 /* Triviar */ = {
+			isa = PBXGroup;
+			children = (
+				BFAFB89A22557DC2002D3E09 /* AppDelegate.swift */,
+				BFAFB89C22557DC2002D3E09 /* FirstViewController.swift */,
+				BFAFB89E22557DC2002D3E09 /* SecondViewController.swift */,
+				BFAFB8A022557DC2002D3E09 /* Main.storyboard */,
+				BFAFB8A322557DC2002D3E09 /* Assets.xcassets */,
+				BFAFB8A522557DC2002D3E09 /* LaunchScreen.storyboard */,
+				BFAFB8A822557DC2002D3E09 /* Info.plist */,
+			);
+			path = Triviar;
+			sourceTree = "<group>";
+		};
+		BFAFB8B022557DC2002D3E09 /* TriviarTests */ = {
+			isa = PBXGroup;
+			children = (
+				BFAFB8B122557DC2002D3E09 /* TriviarTests.swift */,
+				BFAFB8B322557DC2002D3E09 /* Info.plist */,
+			);
+			path = TriviarTests;
+			sourceTree = "<group>";
+		};
+		BFAFB8BB22557DC2002D3E09 /* TriviarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BFAFB8BC22557DC2002D3E09 /* TriviarUITests.swift */,
+				BFAFB8BE22557DC2002D3E09 /* Info.plist */,
+			);
+			path = TriviarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFAFB89622557DC2002D3E09 /* Triviar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFAFB8C122557DC2002D3E09 /* Build configuration list for PBXNativeTarget "Triviar" */;
+			buildPhases = (
+				BFAFB89322557DC2002D3E09 /* Sources */,
+				BFAFB89422557DC2002D3E09 /* Frameworks */,
+				BFAFB89522557DC2002D3E09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Triviar;
+			productName = Triviar;
+			productReference = BFAFB89722557DC2002D3E09 /* Triviar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFAFB8AC22557DC2002D3E09 /* TriviarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFAFB8C422557DC2002D3E09 /* Build configuration list for PBXNativeTarget "TriviarTests" */;
+			buildPhases = (
+				BFAFB8A922557DC2002D3E09 /* Sources */,
+				BFAFB8AA22557DC2002D3E09 /* Frameworks */,
+				BFAFB8AB22557DC2002D3E09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFAFB8AF22557DC2002D3E09 /* PBXTargetDependency */,
+			);
+			name = TriviarTests;
+			productName = TriviarTests;
+			productReference = BFAFB8AD22557DC2002D3E09 /* TriviarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BFAFB8B722557DC2002D3E09 /* TriviarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFAFB8C722557DC2002D3E09 /* Build configuration list for PBXNativeTarget "TriviarUITests" */;
+			buildPhases = (
+				BFAFB8B422557DC2002D3E09 /* Sources */,
+				BFAFB8B522557DC2002D3E09 /* Frameworks */,
+				BFAFB8B622557DC2002D3E09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BFAFB8BA22557DC2002D3E09 /* PBXTargetDependency */,
+			);
+			name = TriviarUITests;
+			productName = TriviarUITests;
+			productReference = BFAFB8B822557DC2002D3E09 /* TriviarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFAFB88F22557DC2002D3E09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = GUAP;
+				TargetAttributes = {
+					BFAFB89622557DC2002D3E09 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					BFAFB8AC22557DC2002D3E09 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BFAFB89622557DC2002D3E09;
+					};
+					BFAFB8B722557DC2002D3E09 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BFAFB89622557DC2002D3E09;
+					};
+				};
+			};
+			buildConfigurationList = BFAFB89222557DC2002D3E09 /* Build configuration list for PBXProject "Triviar" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFAFB88E22557DC2002D3E09;
+			productRefGroup = BFAFB89822557DC2002D3E09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFAFB89622557DC2002D3E09 /* Triviar */,
+				BFAFB8AC22557DC2002D3E09 /* TriviarTests */,
+				BFAFB8B722557DC2002D3E09 /* TriviarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFAFB89522557DC2002D3E09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAFB8A722557DC2002D3E09 /* LaunchScreen.storyboard in Resources */,
+				BFAFB8A422557DC2002D3E09 /* Assets.xcassets in Resources */,
+				BFAFB8A222557DC2002D3E09 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAFB8AB22557DC2002D3E09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAFB8B622557DC2002D3E09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFAFB89322557DC2002D3E09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAFB89F22557DC2002D3E09 /* SecondViewController.swift in Sources */,
+				BFAFB89B22557DC2002D3E09 /* AppDelegate.swift in Sources */,
+				BFAFB89D22557DC2002D3E09 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAFB8A922557DC2002D3E09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAFB8B222557DC2002D3E09 /* TriviarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFAFB8B422557DC2002D3E09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAFB8BD22557DC2002D3E09 /* TriviarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BFAFB8AF22557DC2002D3E09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFAFB89622557DC2002D3E09 /* Triviar */;
+			targetProxy = BFAFB8AE22557DC2002D3E09 /* PBXContainerItemProxy */;
+		};
+		BFAFB8BA22557DC2002D3E09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BFAFB89622557DC2002D3E09 /* Triviar */;
+			targetProxy = BFAFB8B922557DC2002D3E09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BFAFB8A022557DC2002D3E09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFAFB8A122557DC2002D3E09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BFAFB8A522557DC2002D3E09 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFAFB8A622557DC2002D3E09 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFAFB8BF22557DC2002D3E09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFAFB8C022557DC2002D3E09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFAFB8C222557DC2002D3E09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Triviar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-0086.Triviar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BFAFB8C322557DC2002D3E09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Triviar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-0086.Triviar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BFAFB8C522557DC2002D3E09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TriviarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-0086.TriviarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Triviar.app/Triviar";
+			};
+			name = Debug;
+		};
+		BFAFB8C622557DC2002D3E09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TriviarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-0086.TriviarTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Triviar.app/Triviar";
+			};
+			name = Release;
+		};
+		BFAFB8C822557DC2002D3E09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TriviarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-0086.TriviarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Triviar;
+			};
+			name = Debug;
+		};
+		BFAFB8C922557DC2002D3E09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TriviarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-0086.TriviarUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Triviar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFAFB89222557DC2002D3E09 /* Build configuration list for PBXProject "Triviar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFAFB8BF22557DC2002D3E09 /* Debug */,
+				BFAFB8C022557DC2002D3E09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFAFB8C122557DC2002D3E09 /* Build configuration list for PBXNativeTarget "Triviar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFAFB8C222557DC2002D3E09 /* Debug */,
+				BFAFB8C322557DC2002D3E09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFAFB8C422557DC2002D3E09 /* Build configuration list for PBXNativeTarget "TriviarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFAFB8C522557DC2002D3E09 /* Debug */,
+				BFAFB8C622557DC2002D3E09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFAFB8C722557DC2002D3E09 /* Build configuration list for PBXNativeTarget "TriviarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFAFB8C822557DC2002D3E09 /* Debug */,
+				BFAFB8C922557DC2002D3E09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFAFB88F22557DC2002D3E09 /* Project object */;
+}
